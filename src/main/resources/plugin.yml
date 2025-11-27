@@ -1,0 +1,19 @@
+name: wHit
+version: '${project.version}'
+main: com.stmproject.wHit.WHit
+api-version: '1.21'
+prefix: wHit
+authors: [ wrusie ]
+description: Combo plugin for wruPractice.
+website: https://github.com/wrusie
+
+commands:
+  whit:
+    description: wHit reload command.
+    usage: /whit reload
+    aliases: [wh]
+
+permissions:
+  whit.admin:
+    description: wHit admin permission.
+    default: op

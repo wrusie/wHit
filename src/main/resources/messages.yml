@@ -1,0 +1,15 @@
+# wHit Messages Configuration | @wrusie
+# You can use standard color codes (&a, &c) and Hex codes (&#FFFFFF).
+
+# Message sent when config is reloaded successfully
+reload-success: "&#00FF00&lwHit &8» &fConfiguration files have been &#00FF00&nsuccessfully&f reloaded."
+
+# Message sent when player doesn't have permission
+no-permission: "&c&lwHit &8» &cYou do not have permission to use this command!"
+
+# Usage message for the command
+command-usage: "&e&lwHit &8» &7Usage: &f/whit reload"
+
+# Action Bar display format
+# Placeholders: %combo% - current combo count
+actionbar-format: "&#FFA500&lCOMBO: &e&l%combo%"

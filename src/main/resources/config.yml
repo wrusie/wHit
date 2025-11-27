@@ -1,0 +1,15 @@
+# wHit Configuration | @wrusie
+# Version: 1.21+
+
+sounds:
+  combo-hit:
+    # Fast, clicky sound for normal hits
+    sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 1.0
+    pitch: 1.5
+
+  crit-hit:
+    # Heavy impact sound for critical hits
+    sound: "ENTITY_ARROW_HIT_PLAYER"
+    volume: 1.0
+    pitch: 0.5
