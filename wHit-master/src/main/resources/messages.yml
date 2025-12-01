@@ -1,0 +1,33 @@
+# wHit Messages Configuration | @wrusie
+# You can use standard color codes (&a, &c) and Hex codes (&#FFFFFF).
+
+# Message sent when config is reloaded successfully
+reload-success: "&#00FF00&lwHit &8» &fConfiguration files have been &#00FF00&nsuccessfully&f reloaded."
+
+# Message sent when player doesn't have permission
+no-permission: "&c&lwHit &8» &cYou do not have permission to use this command!"
+
+# Usage message for the command
+command-usage: "&e&lwHit &8» &7Usage: &f/whit reload"
+
+# Action Bar display format
+# Placeholders: %combo% - current combo count
+actionbar-format: "&#FFA500&lCOMBO: &e&l%combo%"
+
+# Toggle Messages
+toggle-on: "&#00FF00&lwHit &8» &fPvP sounds are now &#00FF00&nENABLED&f."
+toggle-off: "&c&lwHit &8» &fPvP sounds are now &c&nDISABLED&f."
+
+# Admin Toggle (Managing others)
+player-not-found: "&c&lwHit &8» &cPlayer not found."
+toggle-other-on: "&#00FF00&lwHit &8» &fYou have &#00FF00&nENABLED&f PvP sounds for &e%player%&f."
+toggle-other-off: "&c&lwHit &8» &fYou have &c&nDISABLED&f PvP sounds for &e%player%&f."
+toggle-by-admin: "&e&lwHit &8» &fYour PvP sounds were toggled by an administrator."
+
+# Update Notification (Sent on Join to Admins)
+update-available:
+  - "&r"
+  - "&e&lwHit &7» &fA new update is available!"
+  - "&7Current: &c%current% &7-> New: &a%new%"
+  - "&7Download: &fhttps://www.spigotmc.org/resources/130416"
+  - "&r"
